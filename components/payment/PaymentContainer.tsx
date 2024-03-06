@@ -1,11 +1,7 @@
-import React from "react";
-import PaymentSteps from "./PaymentSteps";
-import { Tabs, TabsList, TabsTrigger } from "../ui/tabs";
-import { RadioGroup, RadioGroupItem } from "../ui/radio-group";
-import { Label } from "../ui/label";
-import PaymentMethods from "./PaymentMethods";
-import PaymentDetails from "./PaymentDetails";
 import PaymentConfirmation from "./PaymentConfirmation";
+import PaymentDetails from "./PaymentDetails";
+import PaymentMethods from "./PaymentMethods";
+import PaymentSteps from "./PaymentSteps";
 
 const PaymentContainer = () => {
   return (
