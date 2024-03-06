@@ -5,6 +5,7 @@ import { RadioGroup, RadioGroupItem } from "../ui/radio-group";
 import { Label } from "../ui/label";
 import PaymentMethods from "./PaymentMethods";
 import PaymentDetails from "./PaymentDetails";
+import PaymentConfirmation from "./PaymentConfirmation";
 
 const PaymentContainer = () => {
   return (
@@ -12,6 +13,7 @@ const PaymentContainer = () => {
       <PaymentSteps />
       <PaymentMethods />
       <PaymentDetails />
+      <PaymentConfirmation />
     </div>
   );
 };
